@@ -13,6 +13,6 @@ public class DemoApplication {
 	}
 
 	public @GetMapping("/") String sayHello() {
-		return "Hello World!";
+		return "<h1>Hello World!</h1>";
 	}
 }
